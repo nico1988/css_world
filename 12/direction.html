@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            text-align: right;
+            direction:rtl;
+        }
+        img{
+            width: 30%;
+        }
+        img::after{
+            content:attr(title);
+        }
+    </style>
+</head>
+<body>
+    <div dir="rtl">
+        <img src="../static/img/1.png" title="1" alt="1" srcset="">
+        <img src="../static/img/2.png" title="2" alt="2" srcset="">
+        <img src="../static/img/3.png" title="3" alt="3" srcset="">
+        <img src="../static/img/3.png" title="4" alt="4" srcset="">
+        <img src="../static/img/3.png" title="5" alt="5" srcset="">
+        <img src="../static/img/3.png" title="6" alt="6" srcset="">
+        <img src="../static/img/3.png" title="7" alt="7" srcset="">
+
+    </div>
+</body>
+</html>
